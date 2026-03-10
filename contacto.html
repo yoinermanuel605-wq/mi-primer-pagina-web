@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>contacto | contactos Digitales</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="main-header">
+    <div class="logo-container">
+        <img src="logo.png" class="logo" alt="Logo Servicios Digitales">
+        <h1 class="site-name">Servicios Digitales</h1>
+    </div>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="contacto">
+  <div class="contacto-card">
+
+    <h2>Contáctanos</h2>
+    <p class="descripcion">
+      Si tienes alguna consulta sobre nuestros servicios digitales, completa el formulario y te responderemos lo antes posible.
+    </p>
+
+    <div class="contacto-contenido">
+
+      <!-- FORMULARIO -->
+      <form class="formulario-contacto">
+        
+        <div class="fila">
+          <input type="text" placeholder="Nombre completo" required>
+          <input type="email" placeholder="Correo electrónico" required>
+        </div>
+
+        <div class="fila">
+          <input type="tel" placeholder="Teléfono">
+          <select required title="Selecciona un asunto">
+            <option value="">Selecciona un asunto</option>
+            <option>Información general</option>
+            <option>Soporte técnico</option>
+            <option>Presupuesto</option>
+          </select>
+        </div>
+
+        <textarea placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+        <div class="checkbox">
+          <input type="checkbox" required title="Acepto la política de privacidad">
+          <label>Acepto la política de privacidad</label>
+        </div>
+
+        <button type="submit">Enviar mensaje</button>
+
+      </form>
+
+      <!-- INFORMACIÓN -->
+      <div class="info-contacto">
+        <h3>Información de contacto</h3>
+        <p><strong>Dirección:</strong> Av. Principal 123, Ciudad cartagena</p>
+        <p><strong>Teléfono:</strong> +57 123 456 7890</p>
+        <p><strong>Email:</strong> contacto@serviciosdigitales.com</p>
+        <p><strong>Horario:</strong> Lunes a Viernes 9:00 - 18:00</p>
+      </div>
+
+    </div>
+
+    <!-- MAPA -->
+    <div class="mapa">
+      <iframe 
+        src="https://www.google.com/maps?q=Ciudad&output=embed"
+        width="100%" 
+        height="250" 
+        class="mapa-iframe"
+        title="Mapa de ubicación"
+        loading="lazy">
+      </iframe>
+    </div>
+
+  </div>
+</section>
+    <section class="main-section">
+        <h2>Categorías</h2>
+        <ul>
+            <li>🌐 Desarrollo Web</li>
+            <li>📈 Marketing Digital</li>
+            <li>⚙ Automatización</li>
+            <li>🚀 Emprendimiento</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer class="main-footer">
+    <p>&copy; 2026 Servicios Digitales para Emprendedores</p>
+</footer>
+
+</body>
+</html>
+
+
